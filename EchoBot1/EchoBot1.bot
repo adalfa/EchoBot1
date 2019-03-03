@@ -1,0 +1,24 @@
+{
+    "name": "EchoBot1",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "1",
+            "name": "development"
+        },
+        {
+            "type": "endpoint",
+            "endpoint": "https://test-adfbot2.azurewebsites.net/api/messagges",
+            "name": "production",
+            "id": "44"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\adalfa\\Source\\Repos\\EchoBot1\\EchoBot1\\EchoBot1.bot",
+    "overrides": null
+}
